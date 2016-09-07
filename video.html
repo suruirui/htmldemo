@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Video标签Demo</title>
+  <style>
+    video{
+      width: 400px;
+    }
+  </style>
+</head>
+<body>
+<div>
+  <video controls autoplay loop poster="./res/poster.jpg">
+    <source src="./res/video.mp4" type="video/mp4">
+    <source src="./res/video.ogg" type="video/ogg">
+    <track kind="subtitles" src="./res/video.vtt" srclang="cn" label="cn">
+    不支持的视频格式。
+  </video>
+</div>
+</body>
+</html>
